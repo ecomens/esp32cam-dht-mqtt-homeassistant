@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b84a9a1f-3c5d-45ef-b35b-3bcf50248f86)# esp32-cam + dht11 sensor send to message via home assistant mqtt broker
+# esp32-cam + dht11 sensor send to message via home assistant mqtt broker
 esp32-cam edge board connected dht sensor data send to mqtt integrated the Home Assistant add on.
 o esp32-cam arduino ide code: esp32cammqtt_homeassistant.ino, camera_pins.h
  - you can explorer mqtt topics with MQTT EXplorer Tool 
