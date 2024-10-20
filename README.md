@@ -8,7 +8,8 @@ o esp32-cam arduino ide code: esp32cammqtt_homeassistant.ino, camera_pins.h
 o home assistant(HA) configuration.yaml example
  - ![image](https://github.com/user-attachments/assets/c5323b20-a3f2-4e15-93b3-c2aac09be0db)
  - configuration.yaml example
-   # Mqtt configuration examples
+
+   #*****Mqtt configuration examples
     mqtt:
       camera:
         - topic: esp32/cam_0
@@ -23,3 +24,5 @@ o home assistant(HA) configuration.yaml example
           state_topic: "esp32/dht_0"
           unit_of_measurement: "%"
           value_template: "{{ value_json.humidity }}"
+ o home assistant(HA) camera, temperature, humidity card dashboard
+  - ![image](https://github.com/user-attachments/assets/1b3a0a74-c72d-45cf-9128-e86f23d0be57)
